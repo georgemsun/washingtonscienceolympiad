@@ -1,11 +1,12 @@
 var main = function() {
-	$('.header').css('height', $(window).innerHeight()*0.85);
-	$('h1').css('padding', $(window).innerHeight()*0.12 + ' 0 ' + $(window).innerHeight()*0.12 + ' 0');
+	var height = $(window).innerHeight()*0.85;
+	$('.main').css('height', height);
+	$('.main h1').css('padding',$ (window).innerHeight()*0.16 + ' 0 ' + $(window).innerHeight()*0.12 + ' 0');
 }
 
 $(document).ready(main);
 
-$(window).resize(main);
+// $(document).resize(main);
 
 // $(document).ready(function() {
 // 	var fadeOut = 1;
