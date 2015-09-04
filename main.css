@@ -10,7 +10,6 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 	padding: 0;
 	font-family: 'Lato', sans-serif;
 }
-
 h1 {
 	text-align: center;
 	text-transform: uppercase;
@@ -35,16 +34,6 @@ p, em, b {
 a {
 	text-decoration: none;
 }
-.content a {
-	font-weight: 400;
-	color: rgb(45, 84, 45);
-	transition: text-decoration 0.6s;
-}
-.content a:hover {
-	padding-bottom: 1px;
-	border-bottom: 1px solid rgb(45, 84, 45);
-}
-
 .main {
 	text-align: center;
 	background: linear-gradient(rgba(45, 84, 45, 0.9), rgba(45, 84, 45, 0.7), rgba(45, 84, 45, 0.4)), url(background.jpg);
@@ -61,8 +50,17 @@ a {
 	padding: 40 15% 50 15%;
 	background-color: rgb(245, 246, 247);
 }
+.content a {
+	font-weight: 400;
+	color: rgb(45, 84, 45);
+	transition: text-decoration 0.6s;
+}
+.content a:hover {
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgb(45, 84, 45);
+}
 button {
-	padding: 10 50 10 50;
+	padding: 10 3% 10 3%;
 	margin: 10 10 10 10;
 	outline: none;
 	border: 5px solid white;
@@ -77,61 +75,61 @@ button:hover {
 	cursor: hand;
 }
 
-
-
 .nav {
-	padding: 0 100 0 100;
-	overflow: auto;
+	padding: 0 5% 0 5%;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
 	font-size: 16px;
+	background-color: rgba(45, 84, 45, 0.9);
 }
-.nav #nav-head {
+.nav .head {
 	font-weight: bold;
 	text-transform: uppercase;
 	color :white;
+	border-bottom: 2px solid rgba(0,0,0,0);
 }
-.nav #nav-head:hover {
+.nav .head:hover {
 	border-bottom: 2px solid white;
 }
 
-.nav li {
-	list-style: none;
+.nav .nav-main  {
 	float: left;
 	margin-right: 10px;
 	padding: 10;
+	list-style: none;
 }
 .nav li a:link, .nav li a:visited {
 	display: block;
-	text-decoration: none;
 	padding: 10px;
+	text-decoration: none;
 }
 .nav li ul {
 	position: absolute;
 	visibility: hidden;
-	margin: 0;
+	margin: 10 0 0 0;
 	padding: 0;
 	z-index: 1;
-	font-size: 0.75rem;
+	font-size: 16px;
+	border-top: 3px solid rgba(255, 255, 255, 0.9);
+	border-bottom: 3px solid rgba(45, 84, 45, 0.9);
 }
-/*.nav li ul li {
+.nav li ul li {
 	display: inline;
 	float: none;
-}*/
-/*.nav li ul li a:link, .nav li ul li a:visited {
+}
+.nav li ul li a:link, .nav li ul li a:visited {
 	width: auto;
 	background-color: rgba(255, 255, 255, 0.9);
 	color: black;
-	padding-right: 2.5rem;
-	min-width: 12.5rem;
-	-webkit-transition: background-color 0.2s; /* Safari */
-	transition: background-color 0.2s;
-}*/
-/*.nav li ul li a:hover {
+	padding-right: 10px;
+	min-width: 200px;
+	-webkit-transition: background-color 0.1s;
+	transition: background-color 0.1s;
+}
+.nav li ul li a:hover {
 	width: auto;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(45, 84, 45, 0.9);
 	color: white;
 	border: none;
 }
-*/

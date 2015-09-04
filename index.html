@@ -9,6 +9,7 @@
 	<link href="animate.css" rel="stylesheet">
 	<script src="jquery.min.js"></script>
 	<script src="main.js"></script>
+	<script src="smoothscroll.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,600,700,500,300' rel='stylesheet' type='text/css'>
 
 	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
@@ -34,43 +35,38 @@
 
 <section id="nav">
 	<ul class="nav">
-		<li><a id="nav-head" href="index.html" class="">Home</a></li>
-		<li><a id="nav-head" href="events.html" class="">Events</a>
+		<li class="nav-main"><a class="head" href="index.html" class="smoothscroll">Home</a></li>
+		<li class="nav-main"><a class="head" href="events.html" class="smoothscroll">Events</a>
 			<ul>
-				<li><a href="#articles" class="smoothscroll">Tournaments</a></li>
-				<li><a href="#articles" class="smoothscroll">Workshops</a></li>
-				<li><a href="#articles" class="smoothscroll">Scores</a></li>
+				<li><a href="events.html#tournaments" class="smoothscroll">> Tournaments</a></li>
+				<li><a href="events.html#workshops" class="smoothscroll">> Workshops</a></li>
+				<li><a href="events.html#scores" class="smoothscroll">> Scores</a></li>
 			</ul>
 		</li>
-		<li><a id="nav-head" href="contribute.html" class="">Contribute</a>
+		<li class="nav-main"><a class="head" href="contribute.html" class="smoothscroll">Contribute</a>
 			<ul>
-				<li><a href="donate.html" class="smoothscroll">Donate</a></li>
-				<li><a href="volunteer.html" class="smoothscroll">Volunteer</a></li>
-				<li><a href="coach.html" class="smoothscroll">Coach</a></li>
+				<li><a href="constribute.html#donate" class="smoothscroll">> Donate</a></li>
+				<li><a href="constribute.html#volunteer" class="smoothscroll">> Volunteer</a></li>
+				<li><a href="constribute.html#coach" class="smoothscroll">> Coach</a></li>
 			</ul>
 		</li>
-		<li><a id="nav-head" href="board.html" class="">Board of Directors</a>
+		<li class="nav-main"><a class="head" href="board.html" class="smoothscroll">Board of Directors</a>
 			<ul>
-				<li><a href="board.html" class="smoothscroll">Who's Who?</a></li>
-				<li><a href="laws.html" class="smoothscroll">State By-Laws</a></li>
+				<li><a href="board.html#who" class="smoothscroll">> Who's Who?</a></li>
+				<li><a href="board.html#laws" class="smoothscroll">> State By-Laws</a></li>
 			</ul>
 		</li>
-		<li><a id="nav-head" href="register.html" class="">Register</a>
-			<ul>
-				<li><a href="why.html" class="smoothscroll">Why Join?</a></li>
-				<li><a href="register.html" class="smoothscroll">Registration Form</a></li>
-			</ul>
-		</li>
+		<li class="nav-main"><a class="head" href="register.html" class="smoothscroll">Register</a></li>
 	</ul>
 </section>
 
 <section id="header">
 	<div class="main">
 		<h1><span style="font-size: 100">Washington</span></br><span style="font-size: 73">Science Olympiad</span></h1>
-		<a href="http://washingtonscienceolympiad.com/regform.pdf" target="_blank"><button>Register</button></a>
+		<a href="http://washingtonscienceolympiad.com/regform.pdf" target="_blank"><button>Register</button>
 		<a href="volunteer.html"><button>Volunteer</button></a>
 		<a href="coach.html"><button>Coach</button></a>
-		<p style="color: white; font-weight: 400">New teams pay a discounted registration fee!</p>
+		<p style="color: white; font-weight: 400">Registration is open! New teams pay a discounted registration fee!</p>
 	</div>
 </section>
 
@@ -84,7 +80,7 @@
 				<h4>Welcome!</h4>
 				<p>You've found the home for Washington Science Olympiad (WSO). The Board of Directors wish to welcome you to our state site, which is part of the national Science Olympiad program. Each year we strive to increase the quality of K-12 science education by providing learning opportunities and hosting <a href="tournaments.html">regional and state tournaments</a>. We're looking forward to another great year of helping to improve science education throughout Washington state.</p>
 				<p></p>
-				<table style="margin: 0 auto; width: 50%">
+				<table style="margin: 0 auto; width: 60%">
 					<tr>
 						<td style="width: 32%; text-align: center">
 							<h4>135+</h4>
