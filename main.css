@@ -23,7 +23,7 @@ h3 {
 }
 h4 {
 	font-size: 24px;
-	color: rgb(0, 163, 0);
+	color: rgb(45, 100, 45);
 }
 p, em, b {
 	margin: 15 0 0 0;
@@ -36,15 +36,19 @@ a {
 }
 .main {
 	text-align: center;
-	background: linear-gradient(rgba(0, 163, 0, 0.9), rgba(0, 163, 0, 0.7), rgba(0, 163, 0, 0.4)), url(background.jpg);
+	background: linear-gradient(rgba(45, 100, 45, 0.9), rgba(45, 100, 45, 0.7), rgba(45, 100, 45, 0.4)), url(background.jpg);
 	background-repeat: no-repeat no-repeat;
 	background-size: cover;
 	background-position: 0;
 }
+section {
+	margin-top: -60px;
+	padding-top: 60px;
+}
 .title {
 	padding: 20 15% 20 15%;
 	text-align: center;
-	background: rgb(0, 163, 0);
+	background: rgb(45, 100, 45);
 }
 .content {
 	padding: 40 15% 50 15%;
@@ -52,12 +56,12 @@ a {
 }
 .content a {
 	font-weight: 400;
-	color: rgb(0, 163, 0);
+	color: rgb(45, 100, 45);
 	transition: text-decoration 0.6s;
 }
 .content a:hover {
 	padding-bottom: 1px;
-	border-bottom: 1px solid rgb(0, 163, 0);
+	border-bottom: 1px solid rgb(45, 100, 45);
 }
 button {
 	padding: 10 3% 10 3%;
@@ -81,15 +85,15 @@ button:hover {
 	z-index: 1;
 	width: 100%;
 	font-size: 16px;
-	background-color: rgba(0, 163, 0, 0.9);
+	background-color: rgba(45, 100, 45, 0.9);
 }
-.nav .head {
+.nav .head, .nav .head-only {
 	font-weight: bold;
 	text-transform: uppercase;
 	color :white;
 	border-bottom: 2px solid rgba(0,0,0,0);
 }
-.nav .head:hover {
+.nav .head-only:hover {
 	border-bottom: 2px solid white;
 }
 
@@ -112,7 +116,7 @@ button:hover {
 	z-index: 1;
 	font-size: 16px;
 	border-top: 3px solid rgba(255, 255, 255, 0.9);
-	border-bottom: 3px solid rgba(0, 163, 0, 0.9);
+	border-bottom: 3px solid rgba(45, 100, 45, 0.9);
 }
 .nav li ul li {
 	display: inline;
@@ -129,7 +133,7 @@ button:hover {
 }
 .nav li ul li a:hover {
 	width: auto;
-	background-color: rgba(0, 163, 0, 0.9);
+	background-color: rgba(45, 100, 45, 0.9);
 	color: white;
 	border: none;
 }
