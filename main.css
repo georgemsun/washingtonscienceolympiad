@@ -45,7 +45,7 @@ a {
 }
 .main, .page {
 	text-align: center;
-	background: linear-gradient(rgba(45, 100, 45, 0.9), rgba(45, 100, 45, 0.7), rgba(45, 100, 45, 0.4)), url(background.jpg);
+	background: linear-gradient(rgba(45, 100, 45, 0.9), rgba(45, 100, 45, 0.7), rgba(45, 100, 45, 0.4)), url(images/background.jpg);
 	background-repeat: no-repeat no-repeat;
 	background-size: cover;
 	background-position: 0;
@@ -79,6 +79,11 @@ section {
 	padding-bottom: 1px;
 	border-bottom: 1px solid rgb(45, 100, 45);
 }
+.divider {
+	border-bottom: 1px solid rgb(45, 100, 45);
+	margin-top: 30px;
+	margin-bottom: 25px
+}
 button {
 	padding: 10 3% 10 3%;
 	margin: 10 10 10 10;
@@ -93,6 +98,10 @@ button {
 button:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 	cursor: hand;
+}
+table {
+	margin: 0 auto;
+	width: 100%;
 }
 
 .nav {
