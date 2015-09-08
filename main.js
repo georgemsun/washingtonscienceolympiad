@@ -20,14 +20,10 @@ var main = function() {
 }
 
 var page = function() {
-	if($('.feature').html() != '')
-		$('.page').css('height', 220);
-		// $(window).innerHeight()*0.36
-	else
-		$('.page').css('height', 170);
-		// $(window).innerHeight()*0.28
-	$('.page h2').css('padding', '80 0 0 0');
-	// $ (window).innerHeight()*0.13 + ' 0 ' + $(window).innerHeight()*0.01 + ' 0'
+	if($('.feature').html() != "") {
+		$('.page .feature').css('padding-bottom', '25');
+		$('.page .feature').css('margin-top', '-5');
+	}
 }
 
 $(document).ready(all);
@@ -35,4 +31,4 @@ $(document).ready(nav);
 $(document).ready(main);
 $(document).ready(page);
 
-// $(window).resize(main);
+$(window).resize(main);

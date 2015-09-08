@@ -51,6 +51,9 @@ a {
 	background-position: 0;
 	overflow: hidden;
 }
+.page h2 {
+	padding: 80 15% 5 15%;
+}
 .feature {
 	padding-left: 15%;
 	padding-right: 15%;
@@ -116,7 +119,7 @@ table {
 	font-weight: bold;
 	text-transform: uppercase;
 	color :white;
-	border-bottom: 2px solid rgba(0,0,0,0);
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 .nav .head-only:hover {
 	border-bottom: 2px solid white;
