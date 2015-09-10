@@ -26,9 +26,29 @@ var page = function() {
 	}
 }
 
+var schedule = function() {
+	$('.schedule .x, .schedule .y').attr('title', 'Click to toggle schedule rotation');
+	if($('.schedule td').html() != "") {
+		$(this).css('background-color', 'rgb(45, 100, 45)');
+		$(this).css('color', 'white');
+	}
+	$('.schedule .x, .schedule .y').hover(function() {
+		$(this).css('cursor', 'hand');
+	});
+	$('.schedule .x').click(function() {
+		$('.schedule .x').html('X');
+		$('.schedule .y').html('');
+	});
+	$('.schedule .y').click(function() {
+		$('.schedule .y').html('Y');
+		$('.schedule .x').html('');
+	});
+}
+
 $(document).ready(all);
 $(document).ready(nav);
 $(document).ready(main);
 $(document).ready(page);
+$(document).ready(schedule);
 
 $(window).resize(main);
