@@ -5,7 +5,7 @@ var nav = function() {
 	// $('.nav > ul > li, .menu').bind('mouseout', function() {
 	// 	$('.menu').css('visibility', 'hidden');
 	// });
-	$('#dropdown_hide').click(function() {
+	$('.dropdown > table tr:last-child td').click(function() {
 		$('div.dropdown').slideUp('slow', 'swing');
 	});
 	$('.nav > ul > li a').click(function() {

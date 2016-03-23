@@ -50,8 +50,9 @@ div.nav {
 	font-size: 12px;
 }
 div.dropdown {
-	background: #eeeeee;
 	display: none;
+	padding-bottom: 10px;
+	background: #eeeeee;
 }
 .dropdown > table {
 	text-transform: none;
@@ -60,12 +61,22 @@ div.dropdown {
 	text-align: left;
 }
 .dropdown > table tr:first-child td {
+	padding-bottom: 10px;
 	font-size: 20px;
 }
-.dropdown > table tr #dropdown_hide {
+.dropdown > table tr td a {
+	text-decoration: none;
+	color: #444444;
+	font-size: 14px;
+}
+.dropdown > table tr td a:hover {
+	text-decoration: underline;
+}
+.dropdown > table tr:last-child td {
+	padding-top: 10px;
 	text-align: center;
 }
-.dropdown > table tr #dropdown_hide:hover {
+.dropdown > table tr:last-child td:hover {
 	cursor: hand;
 }
 .content {
