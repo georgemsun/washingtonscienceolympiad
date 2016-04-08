@@ -182,7 +182,7 @@ div.footer {
 	background: #ffffff;
 }
 #tournaments table.schedule {
-	font-size: 10px;
+	font-size: 11px;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -214,7 +214,7 @@ div.footer {
 	color: #ffffff;
 }
 #tournaments table.schedule tr td.y {
-	background: #D4AF37;;
+	background: #D4AF37;
 	border-top: none;
 	color: #ffffff;
 }
